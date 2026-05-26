@@ -1,4 +1,4 @@
-# 🍫 Chocolate Sales SQL Analysis
+# Chocolate Sales SQL Analysis
 
 ## Project Overview
 End to end SQL data analytics project using a real world chocolate sales dataset from Kaggle.
@@ -20,28 +20,28 @@ Designed to simulate a real data analyst workflow from database setup through to
 
 ## Key Business Insights
 
-### 💰 Revenue
+### Revenue
 - Total revenue across all sales: **$19,791,571.86**
 - **January 2024** was the best performing month at **$1,013,621**
 - **UK** generates the highest average revenue per sale at **$6,302**
 - All countries perform within a similar range suggesting a consistent global operation
 
-### 🍫 Products
+### Products
 - **Smooth Silky Salty** is the #1 revenue product at **$1,120,201**
 - Top 10 products all sell across every country (6/6), globally distributed portfolio
 - **Almond Choco** generates the highest revenue per box at **$43.31** despite not appearing in the top 10 by total revenue, a potentially undermarketed premium product
 
-### 🌍 Countries
+### Countries
 - **Australia** is the most predictable market with the lowest sales variability, ideal for stable revenue forecasting
 - All 6 countries show similar average revenue per sale, no major regional underperformance
 
-### 👤 Salespeople
+### Salespeople
 - **Madelene Upcott** is the most efficient salesperson at **$7,481 revenue per sale**
 - Dominates every market except Australia where her per sale revenue drops to $5,636
 - Territory size does not drive revenue,quality of sales matters more than coverage
 - More sales volume does not guarantee more revenue, efficiency beats quantity
 
-### ⚠️ Underperformer Spotlight: Wilone O'Kielt
+### Underperformer Spotlight: Wilone O'Kielt
 - Lowest overall revenue at **$439,961** despite covering 6 territories
 - Weakest markets are Canada ($26,540) and UK ($27,222)
 - Core issue is poor product mix, over reliance on low margin products like Drinking Coco ($12/box) while underselling premium products like Almond Choco ($43/box)
