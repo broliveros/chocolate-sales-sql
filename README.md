@@ -47,17 +47,28 @@ Designed to simulate a real data analyst workflow from database setup through to
 - Core issue is poor product mix, over reliance on low margin products like Drinking Coco ($12/box) while underselling premium products like Almond Choco ($43/box)
 - Shows steady year over year growth and consistent seasonal patterns, suggesting the problem is fixable with better product focus
 
-## Folder Structure
+## Dashboard
+Built in Power BI Desktop — covers revenue overview and salesperson performance analysis.
 
-    chocolate_project/
-    ├── data/
-    │   ├── raw/
-    │   └── cleaned/
-    ├── sql/
-    │   ├── 01_create_table.sql
-    │   ├── 02_data_cleaning.sql
-    │   └── 03_analysis.sql
-    └── README.md
+![Dashboard Overview](images/dashboard_overview.png)
+
+chocolate_project/
+│
+├── data/
+│   ├── raw/
+│   └── cleaned/
+│
+├── images/
+│   └── dashboard_overview.png
+│   
+│
+├── sql/
+│   ├── 01_create_table.sql
+│   ├── 02_data_cleaning.sql
+│   └── 03_analysis.sql
+│
+├── chocolate_sales_dashboard.pbix
+└── README.md
 
 ## How to Reproduce
 1. Clone this repository
